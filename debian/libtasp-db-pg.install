@@ -1,0 +1,2 @@
+#!/usr/bin/dh-exec
+build/bin/libtasp-db-pg.so.* ${LIB_DIR}

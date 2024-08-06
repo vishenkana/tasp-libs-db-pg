@@ -1,0 +1,23 @@
+Source: libtasp-db-pg
+Section: libs
+Priority: optional
+Maintainer: dummy
+Standards-Version: 4.5.1
+
+Package: libtasp-db-pg-dev
+Section: libdevel
+Architecture: amd64
+Multi-Arch: same
+Depends: libtasp-db-pg (= ${binary:Version}), ${misc:Depends}
+Description: Software package of technical analysis PostgreSQL - development
+ Library for connecting to the PostgreSQL DBMS of the software package of
+ technical analysis project. The library allows you to execute SQL queries,
+ process them, and generate a JSON result file. Connection pooling is supported.
+
+Package: libtasp-db-pg
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Software package of technical analysis PostgreSQL client libraries
+ Library for connecting to the PostgreSQL DBMS of the software package of
+ technical analysis project. The library allows you to execute SQL queries,
+ process them, and generate a JSON result file. Connection pooling is supported.

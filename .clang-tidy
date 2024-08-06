@@ -1,0 +1,15 @@
+Checks: >
+  *,
+  -llvmlibc-*,
+  -llvm-header-guard,
+  -modernize-use-trailing-return-type,
+  -fuchsia-overloaded-operator,
+  -fuchsia-default-arguments-declarations,
+  -fuchsia-default-arguments-calls,
+  -altera-unroll-loops,
+  -readability-magic-numbers,
+  -cppcoreguidelines-avoid-magic-numbers,
+  -altera-id-dependent-backward-branch
+WarningsAsErrors: ''
+HeaderFilterRegex: '/(src|include)'
+AnalyzeTemporaryDtors: false

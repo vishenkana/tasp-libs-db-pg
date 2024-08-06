@@ -1,0 +1,3 @@
+libtasp-common
+libpq5
+libjsoncpp1
